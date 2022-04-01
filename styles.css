@@ -1,0 +1,23 @@
+.container{display: grid;
+    gap: 10px 10px;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 20% 600px 20% ;
+    grid-template-areas:    "w1 w1 w1"
+                            "w3 w2 w4"
+                            "w3 w5 w4"
+                            "w6 w6 w6"
+                           ;
+                           
+}
+.w1{background-color: crimson;
+grid-area: w1;}
+.w2{background-color: blue;
+grid-area: w2;}
+.w3{background-color: darkgreen;
+grid-area: w3;}
+.w4{background-color: yellow;
+    grid-area: w4;}
+.w5{background-color: bisque;
+    grid-area: w5;}
+.w6{background-color: aqua;
+    grid-area: w6;}
